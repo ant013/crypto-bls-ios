@@ -1,9 +1,10 @@
 Pod::Spec.new do |spec|
-  spec.name = 'CryptoBLS'
-  spec.version = '1.2.0'
-  spec.summary = 'Crypto library for Swift'
+  spec.name = 'CryptoBLS.swift'
+  spec.module_name = 'CryptoBLS'
+  spec.version = '1.0'
+  spec.summary = 'Crypto library BLS verification for Swift'
   spec.description = <<-DESC
-                       HSCryptoKit includes crypto functions that can be used in pure Swift. It supports openssl, secp256k1, base58, sha3 keccak256.
+                       CryptoBLS includes crypto verification function that can be used in pure Swift. It uses c++ code from https://github.com/Chia-Network/bls-signatures.
                        ```
                     DESC
   spec.homepage = 'https://github.com/ant013/crypto-bls-ios'
@@ -12,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.social_media_url = 'http://horizontalsystems.io/'
 
   spec.requires_arc = true
-  spec.source = { git: 'https://github.com/horizontalsystems/crypto-kit-ios.git', tag: "#{spec.version}" }
+  spec.source = { git: 'https://github.com/ant013/crypto-bls-ios.git', tag: "#{spec.version}" }
   spec.source_files = 'CryptoBLS/**/*.{h,m,swift}'
   spec.module_map = 'CryptoBLS/CryptoBLS.modulemap'
   spec.ios.deployment_target = '10.0'
