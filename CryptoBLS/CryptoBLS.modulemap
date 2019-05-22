@@ -6,6 +6,5 @@ framework module CryptoBLS {
 
     explicit module Private {
         header "BLSKey.h"
-        link "crypto"
     }
 }

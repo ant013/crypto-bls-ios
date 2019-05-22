@@ -158,7 +158,7 @@
 			dependencies = (
 			);
 			name = CryptoBLS;
-			productName = CryptoKit;
+			productName = CryptoBLS;
 			productReference = 3A3B598721678313001C5E99 /* CryptoBLS.framework */;
 			productType = "com.apple.product-type.framework";
 		};

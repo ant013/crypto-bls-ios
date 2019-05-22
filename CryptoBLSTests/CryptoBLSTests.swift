@@ -18,13 +18,6 @@ extension Data {
         self = data
     }
     
-    public var hex: String {
-        return reduce("") { $0 + String(format: "%02x", $1) }
-    }
-    
-    public var reversedHex: String {
-        return Data(self.reversed()).hex
-    }
 }
 
 class CryptoBLSTests: XCTestCase {

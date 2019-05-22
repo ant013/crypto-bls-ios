@@ -24,6 +24,6 @@ Pod::Spec.new do |spec|
                                'SWIFT_INCLUDE_PATHS' => '${PODS_ROOT}/CryptoBLS/Libraries',
                                'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/CryptoBLS/Libraries/bls/include"',
                                'LIBRARY_SEARCH_PATHS' => '"${PODS_ROOT}/CryptoBLS/Libraries/bls/lib"' }
-  spec.preserve_paths = ['Setup', 'Libraries']
+  spec.preserve_paths = ['Libraries']
 
 end
