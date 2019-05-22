@@ -1,4 +1,5 @@
 #include "BLSKey.h"
+#import "CryptoBLS/BigIntTypes.h"
 
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wconversion"

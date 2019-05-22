@@ -13,7 +13,7 @@
 		3A87BF3A2293CE2A00D04655 /* CryptoBLS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A3B598721678313001C5E99 /* CryptoBLS.framework */; };
 		58AAA2C29464C6A613F32C29 /* BLSKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 58AAAE144954E6EC1BF31071 /* BLSKey.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		58AAAA7FF5699597D3F170D8 /* BLSKey.mm in Sources */ = {isa = PBXBuildFile; fileRef = 58AAA9A28F2280E6790032C5 /* BLSKey.mm */; };
-		58AAAB228CED773704892928 /* BigIntTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 58AAA22AC461E497878471F9 /* BigIntTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58AAAB228CED773704892928 /* BigIntTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 58AAA22AC461E497878471F9 /* BigIntTypes.h */; settings = {ATTRIBUTES = (Private, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,7 +22,7 @@
 			containerPortal = 3A3B597E21678313001C5E99 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3A3B598621678313001C5E99;
-			remoteInfo = HSCryptoKit;
+			remoteInfo = CryptoBLS;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -136,8 +136,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A3B598C21678313001C5E99 /* CryptoBLS.h in Headers */,
-				58AAAB228CED773704892928 /* BigIntTypes.h in Headers */,
 				58AAA2C29464C6A613F32C29 /* BLSKey.h in Headers */,
+				58AAAB228CED773704892928 /* BigIntTypes.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +176,7 @@
 				3A87BF3C2293CE2A00D04655 /* PBXTargetDependency */,
 			);
 			name = CryptoBLSTests;
-			productName = HSCryptoKitTests;
+			productName = CryptoBLSTests;
 			productReference = 3A87BF352293CE2A00D04655 /* CryptoBLSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};

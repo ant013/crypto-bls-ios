@@ -2,7 +2,6 @@
 #define CRYPTOBLS_BLSKEY_H
 
 #import <Foundation/Foundation.h>
-#import "CryptoBLS/BigIntTypes.h"
 
 @interface BLSKey: NSObject
 

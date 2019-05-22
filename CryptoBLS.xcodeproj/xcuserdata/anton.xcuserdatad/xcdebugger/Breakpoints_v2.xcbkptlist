@@ -9,23 +9,7 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "HSCryptoKitTests/HSCryptoKitTests.swift"
-            timestampString = "580119219.683995"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
-            landmarkName = "testExample()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HSCryptoKit/Source/BLSKey.mm"
+            filePath = "CryptoBLS/Source/BLSKey.mm"
             timestampString = "580119219.6843899"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
