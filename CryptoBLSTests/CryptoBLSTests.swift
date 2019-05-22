@@ -42,7 +42,7 @@ class HSCryptoKitTests: XCTestCase {
         let signature = Data(hex: "0cace6526d0f27e7b969700877796fce5d0a441281d952197eee051385b22c7b9010981cecd19986fc185aa65ac8d82b0c8ba2e0f2cab703f4cd9c3079cc53b78d947bc6d8cc6b05f87fcffea778a05df53f0340d6d0c4f9de182016df8452fe")!
         let hash = Data(hex: "764ffc3658c9e40ebed871d60eb92add480d437973d59038c37d6e55dda35461")!
 
-        XCTAssertTrue(CryptoKit.verify(messageDigest: hash, pubKey: pubKey, signature: signature))
+        XCTAssertTrue(CryptoBLS.verify(messageDigest: hash, pubKey: pubKey, signature: signature))
     }
 
     func testPerformanceExample() {

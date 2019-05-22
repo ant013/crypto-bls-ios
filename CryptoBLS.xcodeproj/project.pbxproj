@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11B35A4136BC1AF9A2DD9A89 /* CryptoKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B35E2ABD2BB088BBFDA4D1 /* CryptoKit.swift */; };
+		11B35A4136BC1AF9A2DD9A89 /* CryptoBLS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B35E2ABD2BB088BBFDA4D1 /* CryptoBLS.swift */; };
 		3A3B598C21678313001C5E99 /* CryptoBLS.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A3B598A21678313001C5E99 /* CryptoBLS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A87BF382293CE2A00D04655 /* CryptoBLSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A87BF372293CE2A00D04655 /* CryptoBLSTests.swift */; };
 		3A87BF3A2293CE2A00D04655 /* CryptoBLS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A3B598721678313001C5E99 /* CryptoBLS.framework */; };
@@ -27,7 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11B35E2ABD2BB088BBFDA4D1 /* CryptoKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoKit.swift; sourceTree = "<group>"; };
+		11B35E2ABD2BB088BBFDA4D1 /* CryptoBLS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoBLS.swift; sourceTree = "<group>"; };
 		3A3B598721678313001C5E99 /* CryptoBLS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CryptoBLS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A3B598A21678313001C5E99 /* CryptoBLS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CryptoBLS.h; sourceTree = "<group>"; };
 		3A3B598B21678313001C5E99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 		11B35A57C6F712CE66D5BECF /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				11B35E2ABD2BB088BBFDA4D1 /* CryptoKit.swift */,
+				11B35E2ABD2BB088BBFDA4D1 /* CryptoBLS.swift */,
 				58AAA9A28F2280E6790032C5 /* BLSKey.mm */,
 				58AAAE144954E6EC1BF31071 /* BLSKey.h */,
 				58AAA59E268EE203025647A9 /* Categories */,
@@ -239,7 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11B35A4136BC1AF9A2DD9A89 /* CryptoKit.swift in Sources */,
+				11B35A4136BC1AF9A2DD9A89 /* CryptoBLS.swift in Sources */,
 				58AAAA7FF5699597D3F170D8 /* BLSKey.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
