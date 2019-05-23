@@ -1,4 +1,4 @@
-#include "BLSKey.h"
+#import "BLSKey.h"
 #import "CryptoBLS/BigIntTypes.h"
 
 #pragma clang diagnostic push
@@ -7,10 +7,10 @@
 #pragma clang diagnostic ignored "-Wconditional-uninitialized"
 #pragma clang diagnostic ignored "-Wdocumentation"
 #pragma clang diagnostic ignored "-Wmacro-redefined"
-#include "bls.hpp"
+#import "bls.hpp"
 #pragma clang diagnostic pop
 
-@implementation BLSKey
+@implementation BLSKey2
 
 // MARK: - Verification
 

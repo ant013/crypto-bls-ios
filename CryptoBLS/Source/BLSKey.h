@@ -1,12 +1,7 @@
-#ifndef CRYPTOBLS_BLSKEY_H
-#define CRYPTOBLS_BLSKEY_H
-
 #import <Foundation/Foundation.h>
 
-@interface BLSKey: NSObject
+@interface BLSKey2: NSObject
 
 + (BOOL)verify:(NSData *)messageDigest publicKey:(NSData *)publicKeyData signature:(NSData *)signature;
 
 @end
-
-#endif //CRYPTOBLS_BLSKEY_H
