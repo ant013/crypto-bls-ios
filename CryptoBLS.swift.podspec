@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name = 'CryptoBLS.swift'
   spec.module_name = 'CryptoBLS'
-  spec.version = '1.0'
+  spec.version = '1.1'
   spec.summary = 'Crypto library BLS verification for Swift'
   spec.description = <<-DESC
                        CryptoBLS includes crypto verification function that can be used in pure Swift. It uses c++ code from https://github.com/Chia-Network/bls-signatures.

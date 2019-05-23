@@ -1,5 +1,5 @@
 #import "BLSKey.h"
-#import "BigIntTypes.h"
+#import "BigIntTypesBLS.h"
 
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wconversion"

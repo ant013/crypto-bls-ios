@@ -1,5 +1,5 @@
 //
-//  BigIntTypes.h
+//  BigIntTypesBLS.h
 //  DashSync
 //
 //  Created by Sam Westrich on 7/20/16.
@@ -23,8 +23,8 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 
-#ifndef BigIntTypes_h
-#define BigIntTypes_h
+#ifndef BigIntTypesBLS_h
+#define BigIntTypesBLS_h
 
 #include <stdint.h>
 
@@ -149,4 +149,4 @@ o.hash.u32[4], o.hash.u32[5], o.hash.u32[6], o.hash.u32[7],\
 CFSwapInt32HostToLittle((uint32_t)o.n) }) length:sizeof(UInt256) + sizeof(uint32_t)]
 
 
-#endif /* BigIntTypes_h */
+#endif /* BigIntTypesBLS_h */
