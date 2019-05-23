@@ -6,5 +6,9 @@ framework module CryptoBLS {
 
     explicit module Private {
         header "BLSKey.h"
+
+        link "bls_ios"
+        link "gmp_ios"
+        link "relic_ios"
     }
 }

@@ -16,13 +16,13 @@ Pod::Spec.new do |spec|
   spec.source = { git: 'https://github.com/ant013/crypto-bls-ios.git', tag: "#{spec.version}" }
   spec.source_files = 'CryptoBLS/**/*.{h,m,swift}'
   spec.module_map = 'CryptoBLS/CryptoBLS.modulemap'
-  spec.ios.deployment_target = '12.0'
+  spec.ios.deployment_target = '11.0'
   spec.swift_version = '5'
 
   spec.pod_target_xcconfig = { 'SWIFT_WHOLE_MODULE_OPTIMIZATION' => 'YES',
                                'APPLICATION_EXTENSION_API_ONLY' => 'YES',
                                'SWIFT_INCLUDE_PATHS' => '${PODS_ROOT}/CryptoBLS.swift/Libraries',
-                               'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/CryptoBLS.swift/Libraries/bls/include"',
+                               'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/CryptoBLS.swift/Libraries/bls/include" "${PODS_ROOT}/CryptoBLS.swift/Libraries/bls/include/relic"',
                                'LIBRARY_SEARCH_PATHS' => '"${PODS_ROOT}/CryptoBLS.swift/Libraries/bls/lib"' }
   spec.preserve_paths = ['Libraries']
 
