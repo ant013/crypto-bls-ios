@@ -7,3 +7,5 @@ FOUNDATION_EXPORT double CryptoBLSVersionNumber;
 FOUNDATION_EXPORT const unsigned char CryptoBLSVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <CryptoBLS/PublicHeader.h>
+
+#import "BigIntTypes.h"

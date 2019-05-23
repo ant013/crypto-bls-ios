@@ -11,9 +11,10 @@
 		3A3B598C21678313001C5E99 /* CryptoBLS.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A3B598A21678313001C5E99 /* CryptoBLS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A87BF382293CE2A00D04655 /* CryptoBLSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A87BF372293CE2A00D04655 /* CryptoBLSTests.swift */; };
 		3A87BF3A2293CE2A00D04655 /* CryptoBLS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A3B598721678313001C5E99 /* CryptoBLS.framework */; };
+		3A87FEDC2296914A00156F41 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A87BF1D2293BF4D00D04655 /* SystemConfiguration.framework */; };
+		3A87FEDE2296915E00156F41 /* BigIntTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A87FEDD2296915E00156F41 /* BigIntTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58AAA2C29464C6A613F32C29 /* BLSKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 58AAAE144954E6EC1BF31071 /* BLSKey.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		58AAAA7FF5699597D3F170D8 /* BLSKey.mm in Sources */ = {isa = PBXBuildFile; fileRef = 58AAA9A28F2280E6790032C5 /* BLSKey.mm */; };
-		58AAAB228CED773704892928 /* BigIntTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 58AAA22AC461E497878471F9 /* BigIntTypes.h */; settings = {ATTRIBUTES = (Private, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +37,8 @@
 		3A87BF352293CE2A00D04655 /* CryptoBLSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoBLSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A87BF372293CE2A00D04655 /* CryptoBLSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoBLSTests.swift; sourceTree = "<group>"; };
 		3A87BF392293CE2A00D04655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A87FEDD2296915E00156F41 /* BigIntTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BigIntTypes.h; path = Libraries/bls/include/BigIntTypes.h; sourceTree = "<group>"; };
 		3AF64B60229411FD0016CC07 /* CryptoBLS.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = CryptoBLS.modulemap; sourceTree = "<group>"; };
-		58AAA22AC461E497878471F9 /* BigIntTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigIntTypes.h; sourceTree = "<group>"; };
 		58AAA9A28F2280E6790032C5 /* BLSKey.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BLSKey.mm; sourceTree = "<group>"; };
 		58AAAE144954E6EC1BF31071 /* BLSKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLSKey.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A87FEDC2296914A00156F41 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,7 +69,6 @@
 				11B35E2ABD2BB088BBFDA4D1 /* CryptoBLS.swift */,
 				58AAA9A28F2280E6790032C5 /* BLSKey.mm */,
 				58AAAE144954E6EC1BF31071 /* BLSKey.h */,
-				58AAA59E268EE203025647A9 /* Categories */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -75,6 +76,7 @@
 		3A3B597D21678313001C5E99 = {
 			isa = PBXGroup;
 			children = (
+				3A87FEDD2296915E00156F41 /* BigIntTypes.h */,
 				3A3B598921678313001C5E99 /* CryptoBLS */,
 				3A87BF362293CE2A00D04655 /* CryptoBLSTests */,
 				3A3B598821678313001C5E99 /* Products */,
@@ -120,14 +122,6 @@
 			path = CryptoBLSTests;
 			sourceTree = "<group>";
 		};
-		58AAA59E268EE203025647A9 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				58AAA22AC461E497878471F9 /* BigIntTypes.h */,
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -136,8 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A3B598C21678313001C5E99 /* CryptoBLS.h in Headers */,
+				3A87FEDE2296915E00156F41 /* BigIntTypes.h in Headers */,
 				58AAA2C29464C6A613F32C29 /* BLSKey.h in Headers */,
-				58AAAB228CED773704892928 /* BigIntTypes.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

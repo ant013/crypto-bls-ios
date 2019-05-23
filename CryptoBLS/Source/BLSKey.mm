@@ -1,5 +1,5 @@
 #import "BLSKey.h"
-#import "CryptoBLS/BigIntTypes.h"
+#import "BigIntTypes.h"
 
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wconversion"
@@ -10,7 +10,7 @@
 #import "bls.hpp"
 #pragma clang diagnostic pop
 
-@implementation BLSKey2
+@implementation BLSKey
 
 // MARK: - Verification
 

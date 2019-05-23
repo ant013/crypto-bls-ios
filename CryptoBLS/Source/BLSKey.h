@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-@interface BLSKey2: NSObject
+@interface BLSKey: NSObject
 
 + (BOOL)verify:(NSData *)messageDigest publicKey:(NSData *)publicKeyData signature:(NSData *)signature;
 
