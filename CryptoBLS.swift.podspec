@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
 
   spec.requires_arc = true
   spec.source = { git: 'https://github.com/ant013/crypto-bls-ios.git', tag: "#{spec.version}" }
-  spec.source_files = 'CryptoBLS/**/*.{h,m,mm,swift}'
+  spec.source_files = '{CryptoBLS,Libraries}/**/*.{h,m,mm,swift}'
   spec.module_map = 'CryptoBLS/CryptoBLS.modulemap'
   spec.ios.deployment_target = '11.0'
   spec.swift_version = '5'
