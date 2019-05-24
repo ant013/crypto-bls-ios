@@ -1,5 +1,5 @@
 #import "BLSKey.h"
-#import "BigIntTypesBLS.h"
+#import <BigIntTypesBLS.h>
 
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wconversion"
@@ -7,7 +7,7 @@
 #pragma clang diagnostic ignored "-Wconditional-uninitialized"
 #pragma clang diagnostic ignored "-Wdocumentation"
 #pragma clang diagnostic ignored "-Wmacro-redefined"
-#import "bls.hpp"
+#import <bls.hpp>
 #pragma clang diagnostic pop
 
 @implementation BLSKey
