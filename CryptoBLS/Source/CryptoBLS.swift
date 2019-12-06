@@ -1,5 +1,4 @@
 import Foundation
-import CryptoBLS.Private
 
 public struct CryptoBLS {
 
