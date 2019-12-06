@@ -36,7 +36,6 @@
 		3A87BF352293CE2A00D04655 /* CryptoBLSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoBLSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A87BF372293CE2A00D04655 /* CryptoBLSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoBLSTests.swift; sourceTree = "<group>"; };
 		3A87BF392293CE2A00D04655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3AF64B60229411FD0016CC07 /* CryptoBLS.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = CryptoBLS.modulemap; sourceTree = "<group>"; };
 		58AAA9A28F2280E6790032C5 /* BLSKey.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BLSKey.mm; sourceTree = "<group>"; };
 		58AAAE144954E6EC1BF31071 /* BLSKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLSKey.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,7 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				11B35A57C6F712CE66D5BECF /* Source */,
-				3AF64B60229411FD0016CC07 /* CryptoBLS.modulemap */,
 				3A3B598A21678313001C5E99 /* CryptoBLS.h */,
 				3A3B598B21678313001C5E99 /* Info.plist */,
 			);
